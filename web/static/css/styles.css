@@ -1,0 +1,111 @@
+.el-bg {
+    background-color: #278fce !important;
+}
+
+.el-logo {
+    position: relative;
+    right: 32px;
+    z-index: 5;
+}
+
+.el-user-info p {
+    margin-bottom: 0;
+}
+
+.el-nav-username {
+    color: #e6eef1 !important;
+    font-weight: bold;
+}
+
+.el-dropdown-menu {
+    color: #4b98ea;
+}
+
+.dropdown-menu a:hover {
+    color: #278fce !important;
+}
+
+.el-search-input {
+    background: url(../img/ic_head_loupe.svg) #1b6ea2 no-repeat left center;
+    background-position: 15px;
+    border-radius: 20px;
+    border: 0;
+    padding-left: 20px;
+    width: 270px !important;
+}
+
+.el-search-input::placeholder {
+    color: #4b98ea;
+    font-weight: normal;
+    padding-left: 30px;
+}
+
+.el-user-status-card {
+    background-color: #edf6fd;
+}
+
+.el-change-status {
+    cursor: pointer;
+}
+
+.el-user-status-form {
+    width: 100% !important;
+}
+
+.el-comment-username {
+    display: block;
+    font-weight: bold;
+}
+
+.el-comment-avatar {
+    float: left;
+    margin-right: 20px
+}
+
+.el-avatar {
+    padding: 20px;
+    height: 400px;
+    width: 100%
+}
+
+.el-footer {
+    background-color: #278fce;
+    margin-top: 20px;
+    height: 50px
+}
+
+.el-footer-copyright {
+    color: #faf7f7;
+    line-height: 50px;
+}
+
+.btn .btn-primary {
+    background-color: #faf7f7;;
+}
+
+.help-block {
+    color: #d62626;
+}
+
+@media (max-width: 768px) {
+    .btn, .btn-group {
+        width: 100%;
+    }
+}
+
+.el-photo-card {
+    display: flex;
+    background-color: #fff;
+    min-width: 100%;
+    min-height: 200px;
+    overflow-x: auto;
+}
+
+.el-photo-card--content {
+    min-width: 200px;
+    margin-right: 60px;
+}
+
+.el-photo-card::-webkit-scrollbar {
+    display: none;
+}
