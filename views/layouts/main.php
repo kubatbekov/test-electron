@@ -41,7 +41,7 @@ AppAsset::register($this);
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img src="<?= Yii::$app->request->baseUrl;?>/static/img/avatar.png" width="35" height="35" class="rounded-circle">
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu el-mobile-dropdown" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item el-dropdown-menu" href="<?= \yii\helpers\Url::home();?>">Моя страница</a>
                             <?= Html::a('Выйти', ['site/logout'], ['data' => ['method' => 'post'], 'class' => 'dropdown-item el-dropdown-menu']) ?>
                         </div>
