@@ -25,6 +25,11 @@
     color: #278fce !important;
 }
 
+.navbar-nav .el-mobile-dropdown {
+    position: absolute;
+    left: -100px;
+}
+
 .el-search-input {
     background: url(../img/ic_head_loupe.svg) #1b6ea2 no-repeat left center;
     background-position: 15px;
